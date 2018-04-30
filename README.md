@@ -90,22 +90,38 @@ function() {
 
 - Constantes y abreviaciones deberan ser llamadas en UPPERCASE
 ```javascript
-// bad
+// mal
 import SmsContainer from './containers/SmsContainer';
 
-// bad
+// mal
 const HttpRequests = [
   // ...
 ];
 
-// good
+// bien
 import SMSContainer from './containers/SMSContainer';
 
-// good
+// bien
 const HTTPRequests = [
   // ...
 ];
 ```
+
+- Funciones. Las funciones deberan ser nombradas en un lenguaje simple, siendo concisas y descriptivas. Se recomienda utilizar verbos en infinitivo. Es importante que el nombre describa qué es lo que el código asignado hace y no cómo lo hace. Se dice que la longitud recomendable es de 2 a 4 palabras o entre 8 y 20 caracteres.
+
+
+```javascript
+// mal
+function hiddingScrollBarWhenUserDoMouseOverThisElement () {
+...
+}
+
+// bien
+function hideScrollBar() {
+...
+}
+```
+
 
 ## jQuery
 - Nombre las variables de objetos jQuery con un prefijo $.
