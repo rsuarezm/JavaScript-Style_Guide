@@ -1,6 +1,4 @@
-#  JavaScript-Style_Guide
 #  Convenciones de nomenclatura
----
 - Evita usar nombres simples. Se descriptivo con los nombres de tus variables.
 
 ```javascript
@@ -110,7 +108,6 @@ const HTTPRequests = [
 ```
 
 ## jQuery
----
 - Nombre las variables de objetos jQuery con un prefijo $.
 ```javascript
 // mal
@@ -122,7 +119,6 @@ var $sidebar = $('.sidebar');
 
 
 # Comentarios
----
 - Usa ```/** ... */``` para comentarios de múltiples líneas. Incluye una descripción, especificación de tipos y valores para todos los parámetros y valores de retorno.
 
 ```javascript
